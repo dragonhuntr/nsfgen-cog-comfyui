@@ -25,7 +25,7 @@ class ComfyUI:
     def start_server(self, output_directory, input_directory):
         self.input_directory = input_directory
         self.output_directory = output_directory
-        self.apply_helper_methods("prepare", weights_downloader=self.weights_downloader)
+        #self.apply_helper_methods("prepare", weights_downloader=self.weights_downloader)
 
         start_time = time.time()
         server_thread = threading.Thread(
