@@ -13,7 +13,7 @@ from config import config
 import requests
 
 
-os.environ["DOWNLOAD_LATEST_WEIGHTS_MANIFEST"] = "true"
+os.environ["DOWNLOAD_LATEST_WEIGHTS_MANIFEST"] = "false"
 os.environ["HF_HUB_ENABLE_HF_TRANSFER"] = "1"
 
 mimetypes.add_type("image/webp", ".webp")
