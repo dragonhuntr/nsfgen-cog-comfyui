@@ -2,5 +2,9 @@
   {
     "repo": "https://github.com/ClownsharkBatwing/RES4LYF",
     "commit": "7750bf7"
+  },
+  {
+    "repo": "https://github.com/glifxyz/ComfyUI-GlifNodes",
+    "commit": "503d6d5"
   }
 ]
